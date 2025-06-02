@@ -1,51 +1,50 @@
-# ☁️ Cloud Portfolio – Yameen Bux
+# ☁️ Cloud Portfolio — Yameen Bux
 
-Welcome to my professional cloud and DevOps engineering portfolio.
-
-I'm a Senior IT Infrastructure Engineer transitioning into **cloud contracting**, building hands-on experience with platforms like **Azure** and **AWS**, along with tools like **Terraform**, **Git**, **PowerShell**, and **CI/CD** pipelines.
-
-This GitHub repo showcases real-world infrastructure projects, automation scripts, and workflows I’ve developed as I pivot into cloud roles with confidence and clarity.
+Welcome to my Cloud & DevOps portfolio — a showcase of hands-on projects and automation scripts as I transition into cloud contracting.
 
 ---
 
-## 🚀 Highlights
+## 🔧 Core Skills
 
-- ✅ **Infrastructure as Code (IaC)** using Terraform
-- ✅ **PowerShell automation** for Azure tasks
-- ✅ Git-based project structure with reusable modules
-- ✅ Real examples with `main.tf`, `variables.tf`, `outputs.tf`
-- ✅ Clear naming, modularity, and Git hygiene
-
----
-
-## 📁 Repo Structure
-
-cloud-portfolio/
-├── terraform-projects/ # Terraform modules & environments
-│ └── azure-vm-simulation/
-│ └── azure-resource-group/
-├── scripts-toolkit/ # PowerShell automation scripts
-├── aws-projects/ # (Coming soon)
-├── kubernetes-lab/ # (Coming soon)
-├── ci-cd-examples/ # (Coming soon)
-└── README.md
-
+- **Cloud Platforms**: Azure (AZ-900 Certified), AWS (in progress)
+- **Infrastructure as Code**: Terraform, Bicep (coming soon)
+- **Automation & Scripting**: PowerShell, Azure CLI
+- **CI/CD & Git**: GitHub, GitHub Actions (coming soon)
+- **Containers & Orchestration**: Kubernetes (in progress)
 
 ---
 
-## 🧠 Why This Exists
+## 📁 Project Directory
 
-I'm building this portfolio to:
+| Folder | Description |
+|--------|-------------|
+| [`terraform-projects`](./terraform-projects) | Real-world Terraform builds (VMs, Resource Groups) |
+| [`scripts-toolkit`](./scripts-toolkit) | PowerShell automation for Azure management |
+| `aws-projects` | *Coming soon*: AWS infrastructure examples |
+| `ci-cd-examples` | *Coming soon*: GitHub Actions & pipeline workflows |
+| `kubernetes-lab` | *Coming soon*: Cluster deployments and manifests |
 
-- ✅ Learn through real, practical examples
-- ✅ Prove my hands-on skills to hiring managers
+---
+
+## 🚀 Featured Projects
+
+### ▶️ [`terraform-projects/azure-vm-simulation`](./terraform-projects/azure-vm-simulation)
+Deploys a virtual machine on Azure using Terraform with reusable modules and variables.
+
+### ▶️ [`scripts-toolkit`](./scripts-toolkit)
+PowerShell scripts to manage Azure CLI logins, list resources, and automate common tasks.
+
+---
+
+## 💡 My Goals
+
+- Build technical confidence across Azure, AWS & DevOps tools
+- Use GitHub to showcase project-based learning and growth
 
 ---
 
 ## 📫 Let’s Connect
 
 **Yameen Bux**  
-Cloud & Infrastructure Specialist | Contracting in Progress  
-[LinkedIn →](https://www.linkedin.com/in/yameenbux/)
-
-
+Senior IT Infrastructure Engineer → Aspiring Cloud Contractor  
+[🔗 LinkedIn](https://www.linkedin.com/in/yameenbux/)
