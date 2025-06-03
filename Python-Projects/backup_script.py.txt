@@ -1,0 +1,22 @@
+# backup_script.py
+# 🔄 Script to back up a local folder to a zip archive with timestamp
+
+import os
+import shutil
+from datetime import datetime
+
+# Set source and destination paths
+source_folder = "C:/Users/ybux/Documents/example"
+backup_folder = "C:/Users/ybux/Documents/backups"
+
+# Create backup folder if it doesn't exist
+os.makedirs(backup_folder, exist_ok=True)
+
+# Create timestamped backup file name
+timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+zip_name = os.path.join(backup_folder, f"backup_{timestamp}")
+
+# Create the backup zip
+shutil.make_archive(zip_name, 'zip', source_folder)
+
+print(f"Backup created: {zip_name}.zip")
