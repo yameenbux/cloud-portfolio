@@ -1,16 +1,26 @@
-# Azure VM Terraform Lab
+# 💻 Azure VM Terraform Lab
 
-This lab provisions a basic Ubuntu VM in Azure using Terraform.
+This lab demonstrates how to provision a basic Virtual Machine on Microsoft Azure using Terraform.
 
-## 🔧 What it creates:
-- Resource Group
-- Virtual Network and Subnet
+## 📦 Project Structure
+
+- `main.tf` – Core infrastructure definition
+- `variables.tf` – Input variables
+- `terraform.tfvars` – Variable values
+- `outputs.tf` – Outputs like public IP, VM name, etc.
+
+## ✅ What This Deploys
+
+- A new Resource Group
+- Virtual Network & Subnet
 - Network Interface
-- Ubuntu Linux VM
+- Public IP Address
+- Virtual Machine (Ubuntu or your selected image)
+- Network Security Group with SSH access
 
-## ▶️ Usage
+## 🚀 Getting Started
 
-```bash
-terraform init
-terraform plan
-terraform apply
+1. **Navigate to the directory:**
+
+   ```bash
+   cd terraform-projects/azure-vm-lab

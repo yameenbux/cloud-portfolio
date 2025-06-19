@@ -1,6 +1,17 @@
 provider "azurerm" {
   features {}
+
+  subscription_id = var.subscription_id
+  client_id       = var.client_id
+  client_secret   = var.client_secret
+  tenant_id       = var.tenant_id
+
+  use_msi         = false
+  use_cli         = false
 }
+
+
+
 
 resource "azurerm_resource_group" "rg" {
   name     = var.resource_group_name
@@ -21,6 +32,7 @@ resource "azurerm_subnet" "subnet" {
   address_prefixes     = ["10.0.1.0/24"]
 }
 
+
 resource "azurerm_network_interface" "nic" {
   name                = "vm-nic"
   location            = var.location
@@ -32,6 +44,7 @@ resource "azurerm_network_interface" "nic" {
     private_ip_address_allocation = "Dynamic"
   }
 }
+
 
 resource "azurerm_linux_virtual_machine" "vm" {
   name                = "lab-vm"
@@ -59,3 +72,4 @@ resource "azurerm_linux_virtual_machine" "vm" {
     version   = "latest"
   }
 }
+
